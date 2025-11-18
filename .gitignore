@@ -1,0 +1,128 @@
+# Ignore the git_clone_sdb directory
+git_clone_sdb/
+
+# Build directories
+sdb/build/
+sdb/out/
+build/
+out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+!CMakePresets.json
+Testing/
+
+# vcpkg installed packages
+vcpkg/buildtrees/
+vcpkg/downloads/
+vcpkg/installed/
+vcpkg/packages/
+vcpkg/.git/
+vcpkg/vcpkg
+vcpkg/vcpkg.exe
+
+# Keep vcpkg scripts and ports
+!vcpkg/scripts/
+!vcpkg/ports/
+!vcpkg/.vcpkg-root
+!vcpkg/bootstrap-vcpkg.sh
+!vcpkg/bootstrap-vcpkg.bat
+!vcpkg/vcpkg.json
+!vcpkg/vcpkg-configuration.json
+
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+*.ko
+*.elf
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.la
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+sdb/build/tools/sdb
+sdb/build/test/sdb-tests
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Editor and IDE files
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# Log files
+*.log
+*.tlog
+
+# Package files
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# C++ specific
+*.i*86
+*.x86_64
+*.hex
+
+# Core dumps
+core
+core.*
+
+# Generated documentation
+docs/_build/
+html/
+latex/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
